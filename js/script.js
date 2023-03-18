@@ -64,9 +64,9 @@ function deleteComment(deleteButton) {
 }
 
 function addLike(button) {
-  if (button.getAttribute('src') === '../img/like.svg')
-    button.setAttribute('src', '../img/like2.svg');
-	else (button.setAttribute('src', '../img/like.svg'));
+  if (button.getAttribute('src') === './img/like.svg')
+    button.setAttribute('src', './img/like2.svg');
+	else (button.setAttribute('src', './img/like.svg'));
 }
 
 function clearForm() {
