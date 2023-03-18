@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="./css/stile.css">
+	<title>Coments</title>
+</head>
+<body>
+	<div class="comments">
+	<div class="container">
+		<h1 class="comments__title">Comments</h1>
+		<form id="form">
+			<div class="form-group">
+				<label for="comment-name">Name:</label>
+				<input type="text" id="comment-name" class="comment-input" placeholder="Your name" name="name" >
+				<span class="error-text" id="error-name">Поле не заполнено</span>
+			</div>
+			<div class="form-group">
+				<label for="comment-body">Comment:</label>
+				<input type="text" id="comment-body" class="comment-input" placeholder="Your comment" name="body">
+				<span class="error-text" id="error-body">Поле не заполнено</span>
+			</div>
+			<div class="form-group">
+				<label for="comment-body">Date:</label>
+				<input type="text" id="comment-date" class="comment-input__date" name="date">
+			</div>
+			<div class="form-group">
+				<button type="submit" id="comment-add" class="btn">Add comment</button>
+			</div>
+			<div  id="comment-list"></div>
+			
+		</form>
+		
+		
+			
+
+		</div>
+		</div>
+	</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+</html>
+
+
