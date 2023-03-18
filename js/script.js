@@ -42,9 +42,9 @@ function showComents() {
   document.getElementById('comment-list').appendChild(commentItem);
 
   let out = ` <div class="field-row">
- 	  <a href="#" ><img class="img__basket img" src="../img/basket.svg" alt="basket">
+ 	  <a href="#" ><img class="img__basket img" src="./img/basket.svg" alt="basket">
 	  </a>
-	  <a href="#" ><img class="img__like img" src="../img/like.svg" alt="like"></a>
+	  <a href="#" ><img class="img__like img" src="./img/like.svg" alt="like"></a>
 	 </div>`;
   commentItem.innerHTML += out;
 
